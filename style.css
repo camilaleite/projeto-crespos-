@@ -1,0 +1,508 @@
+@import 
+url('https://fonts.googleapis.com/css2? family = Montserrat: wght @ 100 & display = swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Montserrat', sans-serif;
+    list-style:none;
+}
+body{
+    width:105vw;
+    height:500vh;
+}
+h1{
+    top: 56vh;
+    left: 14vw;
+    position: absolute;
+    font-family:'Montserrat';
+    color: white;
+    z-index:2;
+    font-size: 6vw;
+    width:30vw;
+}
+.todecachos{
+    display:flex;  
+    margin-left: 8vw;
+    margin-top: 3vh;
+}
+li:hover{
+    cursor:pointer;
+    text-shadow: 0.1vw 0.1vw 1.5vw;
+    font-weight:900vw;
+}
+.topicos-cabecalho{
+    letter-spacing: 0.56%;
+    display:flex;
+    align-items: center;
+    text-transform: capitalize;
+    justify-content: space-evenly;
+    color:  #9767A9;
+    margin-top: -10vh;
+    margin-left: 25vw;
+    width:45vw;
+    height: 10vh;
+}
+.DC{
+    font: 800 3vh/8vw 'Montserrat';
+    color:  #9767A9;
+    display:flex;
+    left: 30vw;
+}
+.busca{
+    width:10vw;
+    height:4vh;
+    margin-top: -7.2vh;
+    margin-left: 75vw;
+    border: 0.40vh solid  #9767A9;
+    border-radius: 20vh;
+    display:flex;
+}
+.lupa{
+    position:absolute;
+    display: flex;
+    top:5vh;
+    left: 75.7vw;
+    width:1.4vw;
+}
+.redes{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 10vw;
+    margin-top:-5.5vh;
+    margin-left: 87vw;    
+}
+.negrao{
+    position: absolute;
+    display:flex;
+    top: 15vh;
+    left: 0;
+    width: 98vw;
+    height:98vh;
+    border: solid 0.001vh #9767A9 ;
+    z-index:1
+}
+.text2{
+    top: 72vh;
+    left: 62vw;
+    width:25vw;
+    position: absolute;   
+    font-family:'Montserrat';
+    color: white;
+    z-index:2;
+    font-size: 2.2vw;
+    opacity: 0.8;
+}
+.retangulo-roxo{
+    background-color: #9767A9;
+    width:98vw;
+    height:55vh;
+    top:113vh;
+    position: absolute;
+    z-index:1;
+}
+.text3{
+    position: absolute;
+    display: flex;
+    color: white;
+    font-family:'Montserrat';
+    font-size:4vw;
+    width:53vw;
+    top:120vh;
+    left:4vw;
+    z-index: 3;
+}
+.text4{
+    position: absolute;    
+    font-family: 'Roboto' ;
+    color: white;
+    z-index:3;
+    font-size: 1.5vw;
+    opacity: 0.90;
+    width:37vw;
+    top:123vh;
+    left:60vw;
+}
+.img1{
+    position: absolute;  
+    display: flex;
+    width: 40vw;
+    top: 160vh;
+    z-index: 1;
+    left: 11vw;
+}
+.quadrado1{
+    background-color: #9767A9;
+    width:26vw;
+    height:55vh;
+    top:210vh;
+    left: 18vw;
+    position: absolute;
+    z-index:2;
+}
+.frase1{
+    position: absolute;
+    display: flex;
+    z-index: 3;
+    top: 212vh;
+    left: 19vw;
+    width:18vw;
+    height:33vh;
+    font-family: 'Montserrat';
+    font-size:1.85vw;
+    color: white;
+}
+.pr1{
+    position: absolute;
+    display: flex;
+    text-align: left;
+    z-index: 3;
+    top: 223vh;
+    left: 19vw;
+    width:24vw;
+    height:40vh;
+    font-family:'Montserrat';
+    font-size: 1.2vw;
+    color: white;
+    opacity: 0.8;
+}
+.img2{
+    position: absolute;  
+    display: flex;
+    width: 40vw;
+    top: 205vh;
+    z-index: 1;
+    left: 52vw;
+}
+.quadrado2{
+    background-color: #9767A9;
+    width:28vw;
+    height:50vh;
+    top:257vh;
+    left: 57.8vw;
+    position: absolute;
+    z-index:2;
+}
+.frase2{
+    position: absolute;
+    display: flex;
+    z-index: 3;
+    top: 260vh;
+    left: 59vw;
+    width:21vw;
+    height:33vh;
+    font-family: 'Montserrat';
+    font-size:1.90vw;
+    color: white;
+}
+.pr2{
+    position: absolute;
+    display: flex;
+    text-align: left;
+    z-index: 3;
+    top: 267vh;
+    left: 59vw;
+    width:24vw;
+    height:40vh;
+    font-size: 1.15vw;
+    color: white;
+    opacity: 0.8;
+}
+.img3{
+    position: absolute;  
+    display: flex;
+    width: 40vw;
+    top: 275vh;
+    z-index: 1;
+    left: 11vw;
+}
+.quadrado3{
+    background-color: #9767A9;
+    width:28vw;
+    height:38vh;
+    top:323vh;
+    left: 14vw;
+    position: absolute;
+    z-index:2;
+}
+.frase3{
+    position: absolute;
+    display: flex;
+    z-index: 3;
+    top: 326vh;
+    left: 15vw;
+    width:26vw;
+    height:33vh;
+    font-family: 'Montserrat';
+    font-size:1.90vw;
+    color: white;
+}
+.pr3{
+    position: absolute;
+    display: flex;
+    text-align: left;
+    z-index: 3;
+    top: 340vh;
+    left: 15vw;
+    width:24vw;
+    height:40vh;
+    font-size: 1.15vw;
+    color: white;
+    opacity: 0.8;
+}
+.img4{
+    position: absolute;  
+    display: flex;
+    width: 40vw;
+    top: 320vh;
+    z-index: 1;
+    left: 52vw;
+}
+.quadrado4{
+    background-color: #9767A9;
+    width:28vw;
+    height:42vh;
+    top:385vh;
+    left: 60vw;
+    position: absolute;
+    z-index:2;
+}
+.frase4{
+    position: absolute;
+    display: flex;
+    z-index: 3;
+    top: 388vh;
+    left: 62vw;
+    width:25vw;
+    height:33vh;
+    font-family: 'Montserrat';
+    font-size:1.90vw;
+    color: white;
+}
+.pr4{
+    position: absolute;
+    display: flex;
+    text-align: left;
+    z-index: 3;
+    top: 400vh;
+    left: 62vw;
+    width:24vw;
+    height:40vh;
+    font-size: 1.15vw;
+    color: white;
+    opacity: 0.8;
+}
+.img5{
+    position: absolute;  
+    display: flex;
+    width: 40vw;
+    top: 390vh;
+    z-index: 1;
+    left: 11vw;
+}
+.quadrado5{
+    background-color: #9767A9;
+    width:28vw;
+    height:45vh;
+    top: 442vh;
+    left: 18vw;
+    position: absolute;
+    z-index:2;
+}
+.frase5{
+    position: absolute;
+    display: flex;
+    z-index: 3;
+    top: 444vh;
+    left: 20vw;
+    width:25vw;
+    height:33vh;
+    font-family: 'Montserrat';
+    font-size:1.90vw;
+    color: white;
+}
+.pr5{
+    position: absolute;
+    display: flex;
+    text-align: left;
+    z-index: 3;
+    top: 452vh;
+    left: 20vw;
+    width:24vw;
+    height:40vh;
+    font-size: 1.15vw;
+    color: white;
+    opacity: 0.8;
+}
+.img6{
+    position: absolute;  
+    display: flex;
+    width: 40vw;
+    top: 432vh;
+    z-index: 1;
+    left: 52vw;
+}
+.quadrado6{
+    background-color: #9767A9;
+    width:28vw;
+    height:40vh;
+    top: 493vh;
+    left: 58vw;
+    position: absolute;
+    z-index:2;
+}
+.frase6{
+    position: absolute;
+    display: flex;
+    z-index: 3;
+    top: 496vh;
+    left: 60vw;
+    width:25vw;
+    height:33vh;
+    font-family: 'Montserrat';
+    font-size:1.90vw;
+    color: white;
+}
+.pr6{
+    position: absolute;
+    display: flex;
+    text-align: left;
+    z-index: 3;
+    top: 505vh;
+    left: 60vw;
+    width:24vw;
+    height:40vh;
+    font-size: 1.15vw;
+    color: white;
+    opacity: 0.8;
+}
+.img7{
+    position: absolute;  
+    display: flex;
+    width: 40vw;
+    top: 503vh;
+    z-index: 1;
+    left: 11vw;
+}
+.quadrado7{
+    background-color: #9767A9;
+    width:28vw;
+    height:35vh;
+    top: 555vh;
+    left: 17vw;
+    position: absolute;
+    z-index:2;
+}
+.frase7{
+    position: absolute;
+    display: flex;
+    z-index: 3;
+    top: 558vh;
+    left: 19vw;
+    width:25vw;
+    height:33vh;
+    font-family: 'Montserrat';
+    font-size:1.90vw;
+    color: white;
+}
+.pr7{
+    position: absolute;
+    display: flex;
+    text-align: left;
+    z-index: 3;
+    top: 565vh;
+    left: 19vw;
+    width:24vw;
+    height:40vh;
+    font-size: 1.15vw;
+    color: white;
+    opacity: 0.8;
+}
+.caminho{
+    display: flex;
+    position: absolute;
+    top: 550vh;
+    left: 57vw;
+    width: 30vw;
+}
+.imagem1{
+    position: absolute;  
+    display: flex;
+    width: 20vw;
+    top: 620vh;
+    left: 11vw;
+    height: 65vh;
+}
+.imagem2{
+    position: absolute;  
+    display: flex;
+    width: 20vw;
+    top: 687vh;
+    left: 11vw;
+    height: 23vh;
+}
+.imagem3{
+    position: absolute;  
+    display: flex;
+    width: 13vw;
+    top: 620vh;
+    left: 32vw;
+    height: 32vh;
+}
+.imagem4{
+    position: absolute;  
+    display: flex;
+    width: 13vw;
+    top: 654vh;
+    left: 32vw;
+    height: 31vh;
+}
+.imagem5{
+    position: absolute;  
+    display: flex;
+    width: 13vw;
+    top: 687vh;
+    left: 32vw;
+    height: 23vh;
+}
+.imagem6{
+    position: absolute;  
+    display: flex;
+    width: 13vw;
+    top: 620vh;
+    left: 46vw;
+    height: 65vh;
+}
+.imagem7{
+    position: absolute;  
+    display: flex;
+    width: 13vw;
+    top: 687vh;
+    left: 46vw;
+    height: 23vh;
+}
+.imagem8{
+    position: absolute;  
+    display: flex;
+    width: 17vw;
+    top: 620vh;
+    left: 60vw;
+    height: 90vh;
+}
+.imagem9{
+    position: absolute;  
+    display: flex;
+    width: 14vw;
+    top: 620vh;
+    left: 78vw;
+    height: 26vh;
+}
+.imagem10{
+    position: absolute;  
+    display: flex;
+    width: 14vw;
+    top: 648vh;
+    left: 78vw;
+    height: 62vh;
+}
