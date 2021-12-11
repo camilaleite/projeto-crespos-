@@ -7,10 +7,6 @@ url('https://fonts.googleapis.com/css2? family = Montserrat: wght @ 100 & displa
     font-family:'Montserrat', sans-serif;
     list-style:none;
 }
-body{
-    width:105vw;
-    height:500vh;
-}
 h1{
     top: 56vh;
     left: 14vw;
@@ -26,10 +22,9 @@ h1{
     margin-left: 8vw;
     margin-top: 3vh;
 }
-li:hover{
+li,.seta1,.seta2,.seta3,.rolamento:hover{
     cursor:pointer;
-    text-shadow: 0.1vw 0.1vw 1.5vw;
-    font-weight:900vw;
+    
 }
 .topicos-cabecalho{
     letter-spacing: 0.56%;
@@ -78,7 +73,7 @@ li:hover{
     display:flex;
     top: 15vh;
     left: 0;
-    width: 98vw;
+    width: 98.5vw;
     height:98vh;
     border: solid 0.001vh #9767A9 ;
     z-index:1
@@ -505,4 +500,70 @@ li:hover{
     top: 648vh;
     left: 78vw;
     height: 62vh;
+}
+.rodape{
+    display: flex;
+    position: absolute;
+    background-color: #9767A9;
+    width: 98.7vw;
+    top: 720vh;
+    left: 0vw;
+    height: 15vh;
+    z-index: 1;
+}
+.nota-rodape{
+    display: flex;
+    position: absolute;
+    width: 41vw;
+    top: 723vh;
+    left: 11vw;
+    height: 15vh;
+    z-index: 2;
+    color:white;
+    font-size: 1.1vw;
+    opacity: 3;
+}
+.rolamento{
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    z-index: 2;
+    left: 75vw;
+    top: 723vh;
+    justify-content: space-around;
+    width: 20vw;
+    font-size: 1.1vw;
+    color: white; 
+    opacity: 3;
+}
+.seta1{
+    display: flex;
+    position: absolute;
+    width: 1.8vw;
+    top: 720vh;
+    left: 72.7vw;
+    height: 11vh;
+    z-index: 2;
+    opacity: 1;
+
+}
+.seta2{
+    display: flex;
+    position: absolute;
+    width: 1.7vw;
+    top: 720vh;
+    left: 79.5vw;
+    height: 11vh;
+    z-index: 2;
+    opacity: 1;
+}
+.seta3{
+    display: flex;
+    position: absolute;
+    width: 1.8vw;
+    top: 720vh;
+    left: 92.3vw;
+    height: 11vh;
+    z-index: 2;
+    opacity: 1;
 }
