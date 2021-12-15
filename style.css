@@ -91,7 +91,7 @@ li,.seta1,.seta2,.seta3,.rolamento:hover{
 }
 .retangulo-roxo{
     background-color: #9767A9;
-    width:98vw;
+    width:98.5vw;
     height:55vh;
     top:113vh;
     position: absolute;
@@ -566,4 +566,317 @@ li,.seta1,.seta2,.seta3,.rolamento:hover{
     height: 11vh;
     z-index: 2;
     opacity: 1;
+}
+@media (max-width:400px){
+    .negrao{
+        display: flex;
+        position: absolute;
+        width: 100vw;
+        height: 40vh;
+        
+    }
+    .todecachos{
+        width: 25vw;
+    }
+    .face{
+        width: 8vw;
+    }
+    .insta{
+        width: 8vw;
+    }
+    .youtube{
+        width: 8vw;
+    }
+    h1{
+        top: 34vh;
+    }
+    .text2{
+        top:38vh;
+        font-size: 3vw;
+        width: 35vw;
+    }
+    .redes{
+        position: absolute;
+        left:-83vw;
+        top: 690vh;
+        justify-content: space-around;
+        width: 30vw;
+    }
+    .busca{
+        display: none;
+    }
+    .topicos-cabecalho{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 50vw;
+        font-size: 1.5vw;
+        left: 10vw;
+        top: 17vh;
+        
+    }
+    .lupa{
+       display: none;
+    }
+    .retangulo-roxo{
+        top: 55vh;
+        width: 100vw;
+        height: 25vh;
+    }
+    .text3{
+        top: 56vh;
+        width: 98vw;
+        left: 1.5vw;
+    }
+    .text4{
+        top: 62vh;
+        left: 2vw;
+        font-size: 3vw;
+        width: 98vw;
+    }
+    .img1{
+        top: 83vh;
+        width: 80vw;
+    }
+    .quadrado1{
+        top: 110vh;
+        width: 100vw;
+        height: 28vh;
+        left: 0vw;
+    }
+    .frase1{
+        top: 112vh;
+        left: 6vw;
+        font-size: 4vw;
+        width: 80vw;
+    }
+    .pr1{
+        top: 118vh;
+        left: 6vw;
+        font-size: 3vw;
+        width: 90vw; 
+    }
+    .img2{
+        top:140vh;
+        left: 8vw;
+        width: 80vw;
+    }
+    .quadrado2{
+        top: 175vh;
+        height: 29vh;
+        width: 100vw;
+        left: 0vw;
+    }
+    .frase2{
+        top: 177vh;
+        left: 6vw;
+        font-size: 4vw;
+        width: 60vw;
+    }
+    .pr2{
+        top: 182vh;
+        left: 6vw;
+        font-size: 3vw;
+        width: 92vw; 
+    }
+    .img3{
+        width: 80vw;
+        top: 206vh;
+        left: 8vw;
+    }
+    .quadrado3{
+        top: 245vh;
+        height: 23vh;
+        width: 100vw;
+        left: 0vw;
+    }
+    .frase3{
+        top: 247.5vh;
+        left: 6vw;
+        font-size: 4vw;
+        width: 60vw;
+    }
+    .pr3{
+        top: 253vh;
+        left: 6vw;
+        font-size: 3vw;
+        width: 92vw; 
+    }
+    .img4{
+        width: 80vw;
+        top: 270vh;
+        left: 8vw;
+        height: 45vh;
+    }
+    .quadrado4{
+        top: 307vh;
+        height: 26vh;
+        width: 100vw;
+        left: 0vw;
+    }
+    .frase4{
+        top: 309.5vh;
+        left: 6vw;
+        font-size: 4vw;
+        width: 60vw;
+    }
+    .pr4{
+        top: 316vh;
+        left: 6vw;
+        font-size: 3vw;
+        width: 92vw;  
+    }
+    .img5{
+        width: 80vw;
+        top: 335vh;
+        left: 8vw;
+    }
+    .quadrado5{
+        top: 373vh;
+        height: 27vh;
+        width: 100vw;
+        left: 0vw;
+    }
+    .frase5{
+        top: 375vh;
+        left: 6vw;
+        font-size: 4vw;
+        width: 60vw;
+    }
+    .pr5{
+        top: 380vh;
+        left: 6vw;
+        font-size: 3vw;
+        width: 92vw;  
+    }
+    .img6{
+        width: 80vw;
+        top: 403vh;
+        left: 8vw;
+    }
+    .quadrado6{
+        top: 445vh;
+        height: 24vh;
+        width: 100vw;
+        left: 0vw;
+    }
+    .frase6{
+        top: 447.5vh;
+        left: 6vw;
+        font-size: 4vw;
+        width: 60vw;
+    }
+    .pr6{
+        top: 453vh;
+        left: 6vw;
+        font-size: 3vw;
+        width: 92vw; 
+    }
+    .img7{
+        width: 80vw;
+        top: 472vh;
+        left: 8vw;
+    }
+    .quadrado7{
+        top: 507vh;
+        height: 24vh;
+        width: 100vw;
+        left: 0vw;
+    }
+    .frase7{
+        top: 510vh;
+        left: 6vw;
+        font-size: 4vw;
+        width: 60vw;
+    }
+    .pr7{
+        top: 516vh;
+        left: 6vw;
+        font-size: 3vw;
+        width: 92vw; 
+    }
+    .caminho{
+        top: 540vh;
+        left: 35vw;
+    }
+    .imagem1{
+        top: 550vh;
+        height: 40vh;
+        width: 40vw;
+    }
+    .imagem3{
+        top: 550vh;
+        left: 53vw;
+        height: 15vh;
+        width: 20vw;
+    }
+    .imagem4{
+        top: 550vh;
+        left: 76vw;
+        height: 15vh;
+        width: 20vw;
+    }
+    .imagem5{
+        top: 567vh;
+        left: 53vw;
+        height: 23vh;
+        width: 43vw;
+    }
+    .imagem2{
+        top: 592vh;
+        left: 11vw;
+        height: 27vh;
+        width: 85vw;
+    }
+    .imagem8{
+        top: 620vh;
+        left: 11vw;
+        height: 30vh;
+        width: 21.5vw;
+    }
+    .imagem10{
+        top: 620vh;
+        left: 34vw;
+        height: 30vh;
+        width: 21.5vw;
+    }
+    .imagem6{
+        top: 620vh;
+        left: 57vw;
+        height: 50vh;
+        width: 40vw;
+    }
+    .imagem9{
+        top: 652vh;
+        left: 11vw;
+        height: 18vh;
+        width: 21.5vw;
+    }
+    .imagem7{
+        top: 652vh;
+        left: 34vw;
+        height: 18vh;
+        width: 21.5vw;
+    }
+    .rodape{
+        position: absolute;
+        display: flex;
+        top: 690vh;
+    }
+    .seta1{
+        display: none;
+    }
+    .seta2{
+        display: none;
+    }
+    .seta3{
+        display: none;
+    }
+    .rolamento{
+        display: none;
+    }
+    .nota-rodape{
+        display: none;
+    }
 }
